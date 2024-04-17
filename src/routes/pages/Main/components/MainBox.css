@@ -1,0 +1,21 @@
+.nav {
+    border: solid 5px red;
+    text-align: center;
+}
+.main-banner {
+    border: solid 5px orange;
+    height: 300px;
+}
+
+.pink {
+    color: rgb(226, 60, 88);
+}
+
+.categoryIcon {
+    border: solid 5px yellow;
+    height: 100px;
+}
+
+.category {
+    border: solid 5px green;
+}

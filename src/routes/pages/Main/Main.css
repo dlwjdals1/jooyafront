@@ -1,0 +1,12 @@
+.nav {
+    border: solid 5px red;
+    text-align: center;
+}
+.main-banner {
+    border: solid 5px orange;
+}
+
+.pink {
+    color: rgb(226, 60, 88);
+}
+

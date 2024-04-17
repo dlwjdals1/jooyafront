@@ -1,0 +1,71 @@
+.Login-Box-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    max-width: 720px;
+}
+
+.Login-Box-container .Login {
+    width: 720px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.Login-Box-container .Login > input {
+    height: 30px;
+    width: 100%;
+    padding-left: 0.5rem;
+    border-radius: 5px;
+    border: solid 1px #D8D8D8;
+    margin: 0.5rem;
+}
+
+.Login-Box-container .Login > button {
+    background-color: rgb(250, 112, 154);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.Login-Box-container .Login span {
+    color: red;
+    display: flex;
+    font-size: 0.7rem;
+}
+
+.find-id {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.find-id a {
+    border-color: inherit; /* 링크의 색상을 부모 요소의 색상으로 상속 */
+    text-decoration: none; /* 밑줄 제거 */
+}
+
+.simplelogin {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0.5rem;
+}
+
+.simplelogin > button {
+    width: 100%;
+} 
+
+.login-banner img {
+    width: 100%;
+}

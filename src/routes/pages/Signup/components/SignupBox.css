@@ -1,0 +1,104 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    max-width: 720px;
+}
+
+.signup-profile {
+
+    > input {
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    display: flex;
+    border: solid 1px rgb(238, 238, 238);
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    }
+
+    > h4 {
+        text-align: left;
+    }
+}
+
+.signup-container .alram {
+    color: red;
+    font-size: 10px;
+    text-align: left;    
+}
+
+.signup-container .info {
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+}
+
+.signup-container .font-gray {
+    color: gray;
+    font-size: 10px;
+    text-align: left;
+}
+
+.register-input-id {
+    display: flex;
+}
+
+.register-input-id .input-id {
+    width: 70%;
+    height: 30px;
+    display: flex;
+    border: solid 1px rgb(238, 238, 238);
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+}
+
+
+.register-input-id button {
+    width: 30%;
+    height: 35px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    color: rgb(163, 167, 170);
+}
+
+.snet-code {
+    display: flex;
+}
+
+.sent-code .code {
+    width: 70%;
+    height: 30px;
+    display: flex;
+    display: flex;
+    border: solid 1px rgb(238, 238, 238);
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+}
+
+.sent-code button {
+    width: 30%;
+    height: 35px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    background-color: rgb(250, 112, 154);
+    border: 1px solid rgb(250, 112, 154);
+    border-radius: 5px;
+    color: white;
+}
